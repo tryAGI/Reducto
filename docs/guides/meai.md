@@ -1,7 +1,9 @@
 # Microsoft.Extensions.AI Integration
 
-Reducto provides `AIFunction` tools that integrate with the Microsoft.Extensions.AI (MEAI) ecosystem,
-enabling AI agents to process documents through function/tool calling with any `IChatClient`.
+!!! tip "Cross-SDK comparison"
+    See the [centralized MEAI documentation](https://tryagi.github.io/docs/meai/) for feature matrices and comparisons across all tryAGI SDKs.
+
+The Reducto SDK provides `AIFunction` tool wrappers compatible with [Microsoft.Extensions.AI](https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai). These tools can be used with any `IChatClient` to give AI models document parsing, extraction, classification, and job management capabilities.
 
 ## Available Tools
 
