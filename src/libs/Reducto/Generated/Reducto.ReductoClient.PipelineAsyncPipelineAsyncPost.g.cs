@@ -249,7 +249,6 @@ namespace Reducto
             global::Reducto.PipelineSettings? settings = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-
             var __request = new global::Reducto.V3AsyncPipelineConfig
             {
                 Async = async,

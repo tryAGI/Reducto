@@ -255,7 +255,6 @@ namespace Reducto
             global::Reducto.ExtractSettings? settings = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-
             var __request = new global::Reducto.AsyncExtractConfig
             {
                 Async = async,
