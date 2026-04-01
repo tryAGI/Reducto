@@ -223,7 +223,6 @@ namespace Reducto
         public async global::System.Threading.Tasks.Task<global::Reducto.AnyOf<global::Reducto.ParseResponse, global::Reducto.AsyncParseResponse>> ParseParsePostAsync(
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-
             var __request = new global::Reducto.OneOf<global::Reducto.SyncParseConfig, global::Reducto.AsyncParseConfig>
             {
             };

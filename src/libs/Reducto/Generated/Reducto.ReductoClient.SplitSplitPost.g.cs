@@ -254,7 +254,6 @@ namespace Reducto
             global::Reducto.SplitTableOptions? settings = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-
             var __request = new global::Reducto.SyncSplitConfig
             {
                 Input = input,
