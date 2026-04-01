@@ -223,6 +223,7 @@ namespace Reducto
         public async global::System.Threading.Tasks.Task<global::Reducto.OneOf<global::Reducto.V3ExtractResponse, global::Reducto.AsyncExtractResponse>> ExtractExtractPostAsync(
             global::System.Threading.CancellationToken cancellationToken = default)
         {
+
             var __request = new global::Reducto.OneOf<global::Reducto.SyncExtractConfig, global::Reducto.AsyncExtractConfig>
             {
             };
