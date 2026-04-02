@@ -95,13 +95,13 @@ namespace Reducto
                     if (ReadResponseAsString)
                     {
                         __content_422 = await __response.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false);
-                        __value_422 = global::Reducto.HTTPValidationError.FromJson(__content_422, JsonSerializerContext);
+                        __value_422 = global::Reducto.HTTPValidationError.FromJson(__content_422, JsonSerializerOptions);
                     }
                     else
                     {
                         __content_422 = await __response.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false);
 
-                        __value_422 = global::Reducto.HTTPValidationError.FromJson(__content_422, JsonSerializerContext);
+                        __value_422 = global::Reducto.HTTPValidationError.FromJson(__content_422, JsonSerializerOptions);
                     }
                 }
                 catch (global::System.Exception __ex)
@@ -145,7 +145,7 @@ namespace Reducto
                     __response.EnsureSuccessStatusCode();
 
                     return
-                        global::Reducto.AnyOf<global::Reducto.AsyncJobResponse, global::Reducto.EnhancedAsyncJobResponse>.FromJson(__content, JsonSerializerContext) ??
+                        global::Reducto.AnyOf<global::Reducto.AsyncJobResponse, global::Reducto.EnhancedAsyncJobResponse>.FromJson(__content, JsonSerializerOptions) ??
                         throw new global::System.InvalidOperationException($"Response deserialization failed for \"{__content}\" ");
                 }
                 catch (global::System.Exception __ex)
@@ -176,7 +176,7 @@ namespace Reducto
                     ).ConfigureAwait(false);
 
                     return
-                        await global::Reducto.AnyOf<global::Reducto.AsyncJobResponse, global::Reducto.EnhancedAsyncJobResponse>.FromJsonStreamAsync(__content, JsonSerializerContext).ConfigureAwait(false) ??
+                        await global::Reducto.AnyOf<global::Reducto.AsyncJobResponse, global::Reducto.EnhancedAsyncJobResponse>.FromJsonStreamAsync(__content, JsonSerializerOptions).ConfigureAwait(false) ??
                         throw new global::System.InvalidOperationException("Response deserialization failed.");
                 }
                 catch (global::System.Exception __ex)
