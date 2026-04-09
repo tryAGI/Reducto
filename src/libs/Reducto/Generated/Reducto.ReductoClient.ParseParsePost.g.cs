@@ -5,6 +5,25 @@ namespace Reducto
 {
     public partial class ReductoClient
     {
+
+
+        private static readonly global::Reducto.EndPointSecurityRequirement s_ParseParsePostSecurityRequirement0 =
+            new global::Reducto.EndPointSecurityRequirement
+            {
+                Authorizations = new global::Reducto.EndPointAuthorizationRequirement[]
+                {                    new global::Reducto.EndPointAuthorizationRequirement
+                    {
+                        Type = "Http",
+                        Location = "Header",
+                        Name = "Bearer",
+                        FriendlyName = "Bearer",
+                    },
+                },
+            };
+        private static readonly global::Reducto.EndPointSecurityRequirement[] s_ParseParsePostSecurityRequirements =
+            new global::Reducto.EndPointSecurityRequirement[]
+            {                s_ParseParsePostSecurityRequirement0,
+            };
         partial void PrepareParseParsePostArguments(
             global::System.Net.Http.HttpClient httpClient,
             global::Reducto.OneOf<global::Reducto.SyncParseConfig, global::Reducto.AsyncParseConfig> request);
@@ -38,9 +57,15 @@ namespace Reducto
                 httpClient: HttpClient,
                 request: request);
 
+
+            var __authorizations = global::Reducto.EndPointSecurityResolver.ResolveAuthorizations(
+                availableAuthorizations: Authorizations,
+                securityRequirements: s_ParseParsePostSecurityRequirements,
+                operationName: "ParseParsePostAsync");
+
             var __pathBuilder = new global::Reducto.PathBuilder(
                 path: "/parse",
-                baseUri: HttpClient.BaseAddress); 
+                baseUri: HttpClient.BaseAddress);
             var __path = __pathBuilder.ToString();
             using var __httpRequest = new global::System.Net.Http.HttpRequestMessage(
                 method: global::System.Net.Http.HttpMethod.Post,
@@ -50,7 +75,7 @@ namespace Reducto
             __httpRequest.VersionPolicy = global::System.Net.Http.HttpVersionPolicy.RequestVersionOrHigher;
 #endif
 
-            foreach (var __authorization in Authorizations)
+            foreach (var __authorization in __authorizations)
             {
                 if (__authorization.Type == "Http" ||
                     __authorization.Type == "OAuth2")

@@ -5,6 +5,25 @@ namespace Reducto
 {
     public partial class ReductoClient
     {
+
+
+        private static readonly global::Reducto.EndPointSecurityRequirement s_GetJobsJobsGetSecurityRequirement0 =
+            new global::Reducto.EndPointSecurityRequirement
+            {
+                Authorizations = new global::Reducto.EndPointAuthorizationRequirement[]
+                {                    new global::Reducto.EndPointAuthorizationRequirement
+                    {
+                        Type = "Http",
+                        Location = "Header",
+                        Name = "Bearer",
+                        FriendlyName = "Bearer",
+                    },
+                },
+            };
+        private static readonly global::Reducto.EndPointSecurityRequirement[] s_GetJobsJobsGetSecurityRequirements =
+            new global::Reducto.EndPointSecurityRequirement[]
+            {                s_GetJobsJobsGetSecurityRequirement0,
+            };
         partial void PrepareGetJobsJobsGetArguments(
             global::System.Net.Http.HttpClient httpClient,
             ref bool? excludeConfigs,
@@ -55,6 +74,12 @@ namespace Reducto
                 cursor: ref cursor,
                 limit: ref limit);
 
+
+            var __authorizations = global::Reducto.EndPointSecurityResolver.ResolveAuthorizations(
+                availableAuthorizations: Authorizations,
+                securityRequirements: s_GetJobsJobsGetSecurityRequirements,
+                operationName: "GetJobsJobsGetAsync");
+
             var __pathBuilder = new global::Reducto.PathBuilder(
                 path: "/jobs",
                 baseUri: HttpClient.BaseAddress); 
@@ -62,7 +87,7 @@ namespace Reducto
                 .AddOptionalParameter("exclude_configs", excludeConfigs?.ToString().ToLowerInvariant())
                 .AddOptionalParameter("cursor", cursor)
                 .AddOptionalParameter("limit", limit?.ToString()) 
-                ; 
+                ;
             var __path = __pathBuilder.ToString();
             using var __httpRequest = new global::System.Net.Http.HttpRequestMessage(
                 method: global::System.Net.Http.HttpMethod.Get,
@@ -72,7 +97,7 @@ namespace Reducto
             __httpRequest.VersionPolicy = global::System.Net.Http.HttpVersionPolicy.RequestVersionOrHigher;
 #endif
 
-            foreach (var __authorization in Authorizations)
+            foreach (var __authorization in __authorizations)
             {
                 if (__authorization.Type == "Http" ||
                     __authorization.Type == "OAuth2")

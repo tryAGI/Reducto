@@ -12,7 +12,7 @@ namespace Reducto
         /// <summary>
         /// 
         /// </summary>
-        public const string DefaultBaseUrl = "https://platform.reducto.ai";
+        public const string DefaultBaseUrl = "https://platform.reducto.ai/";
 
         private bool _disposeHttpClient = true;
 
