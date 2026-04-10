@@ -8,11 +8,13 @@ namespace Reducto
         /// Classify
         /// </summary>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Reducto.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Reducto.ClassifyResponse> ClassifyClassifyPostAsync(
 
             global::Reducto.ClassifyConfig request,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Classify
@@ -40,6 +42,7 @@ namespace Reducto
         /// <param name="documentMetadata">
         /// Optional document-level metadata to include in classification prompts.
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Reducto.ClassifyResponse> ClassifyClassifyPostAsync(
@@ -48,6 +51,7 @@ namespace Reducto
             global::System.Collections.Generic.IList<global::Reducto.ClassificationCategory>? classificationSchema = default,
             global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, object>? pageRange = default,
             string? documentMetadata = default,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

@@ -8,11 +8,13 @@ namespace Reducto
         /// Split
         /// </summary>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Reducto.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Reducto.SplitResponse> SplitSplitPostAsync(
 
             global::Reducto.SyncSplitConfig request,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Split
@@ -41,6 +43,7 @@ namespace Reducto
         /// The settings for split processing.<br/>
         /// Default Value: {"table_cutoff":"truncate"}
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Reducto.SplitResponse> SplitSplitPostAsync(
@@ -49,6 +52,7 @@ namespace Reducto
             global::Reducto.ParseOptions? parsing = default,
             string? splitRules = default,
             global::Reducto.SplitTableOptions? settings = default,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }
