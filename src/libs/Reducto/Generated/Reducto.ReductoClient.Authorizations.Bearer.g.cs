@@ -25,6 +25,7 @@ namespace Reducto
             Authorizations.Add(new global::Reducto.EndPointAuthorization
             {
                 Type = "Http",
+                SchemeId = "HttpBearer",
                 Location = "Header",
                 Name = "Bearer",
                 Value = apiKey,

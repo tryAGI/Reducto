@@ -8,11 +8,13 @@ namespace Reducto
         /// Edit Async
         /// </summary>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Reducto.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Reducto.AsyncEditResponse> EditAsyncEditAsyncPostAsync(
 
             global::Reducto.AsyncEditConfig request,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Edit Async
@@ -39,6 +41,7 @@ namespace Reducto
         /// <param name="webhook">
         /// Default Value: {"mode":"disabled","channels":[]}
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Reducto.AsyncEditResponse> EditAsyncEditAsyncPostAsync(
@@ -48,6 +51,7 @@ namespace Reducto
             global::System.Collections.Generic.IList<global::Reducto.EditWidget>? formSchema = default,
             bool? priority = default,
             global::Reducto.WebhookConfigNew? webhook = default,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

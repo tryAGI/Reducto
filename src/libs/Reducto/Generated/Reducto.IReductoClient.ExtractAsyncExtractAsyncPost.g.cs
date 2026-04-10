@@ -8,11 +8,13 @@ namespace Reducto
         /// Extract Async
         /// </summary>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Reducto.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Reducto.AsyncExtractResponse> ExtractAsyncExtractAsyncPostAsync(
 
             global::Reducto.AsyncExtractConfig request,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Extract Async
@@ -42,6 +44,7 @@ namespace Reducto
         /// The settings to use for the extraction.<br/>
         /// Default Value: {"include_images":false,"optimize_for_latency":false,"array_extract":false,"deep_extract":false,"citations":{"enabled":false,"numerical_confidence":true}}
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Reducto.AsyncExtractResponse> ExtractAsyncExtractAsyncPostAsync(
@@ -50,6 +53,7 @@ namespace Reducto
             global::Reducto.ParseOptions? parsing = default,
             global::Reducto.Instructions? instructions = default,
             global::Reducto.ExtractSettings? settings = default,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }
