@@ -19,6 +19,18 @@ namespace Reducto
         /// <summary>
         /// Pipeline
         /// </summary>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Reducto.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Reducto.AutoSDKHttpResponse<global::Reducto.PipelineResponse>> PipelinePipelinePostAsResponseAsync(
+
+            global::Reducto.V3PipelineConfig request,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Pipeline
+        /// </summary>
         /// <param name="input">
         /// For parse/split/extract pipelines, the URL of the document to be processed. You can provide one of the following:<br/>
         ///             1. A publicly available URL<br/>

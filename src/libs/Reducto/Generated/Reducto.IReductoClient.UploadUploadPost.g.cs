@@ -22,6 +22,20 @@ namespace Reducto
         /// Upload
         /// </summary>
         /// <param name="extension"></param>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Reducto.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Reducto.AutoSDKHttpResponse<global::Reducto.UploadResponse>> UploadUploadPostAsResponseAsync(
+
+            global::Reducto.BodyUploadUploadPost request,
+            string? extension = default,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Upload
+        /// </summary>
+        /// <param name="extension"></param>
         /// <param name="file"></param>
         /// <param name="filename"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
@@ -30,6 +44,41 @@ namespace Reducto
         global::System.Threading.Tasks.Task<global::Reducto.UploadResponse> UploadUploadPostAsync(
             string? extension = default,
             byte[]? file = default,
+            string? filename = default,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+
+        /// <summary>
+        /// Upload
+        /// </summary>
+        /// <param name="extension"></param>
+        /// <param name="file">
+        /// The stream to send as the multipart 'file' file part.
+        /// </param>
+        /// <param name="filename"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Reducto.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Reducto.UploadResponse> UploadUploadPostAsync(
+            string? extension = default,
+            global::System.IO.Stream? file = default,
+            string? filename = default,
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Upload
+        /// </summary>
+        /// <param name="extension"></param>
+        /// <param name="file">
+        /// The stream to send as the multipart 'file' file part.
+        /// </param>
+        /// <param name="filename"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Reducto.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Reducto.AutoSDKHttpResponse<global::Reducto.UploadResponse>> UploadUploadPostAsResponseAsync(
+            string? extension = default,
+            global::System.IO.Stream? file = default,
             string? filename = default,
             global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
