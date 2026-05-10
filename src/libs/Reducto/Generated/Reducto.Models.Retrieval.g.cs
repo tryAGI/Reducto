@@ -67,5 +67,6 @@ namespace Reducto
         public Retrieval()
         {
         }
+
     }
 }

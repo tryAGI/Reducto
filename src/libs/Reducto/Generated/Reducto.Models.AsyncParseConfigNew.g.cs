@@ -120,5 +120,6 @@ namespace Reducto
         public AsyncParseConfigNew()
         {
         }
+
     }
 }

@@ -168,5 +168,6 @@ namespace Reducto
         public Settings()
         {
         }
+
     }
 }

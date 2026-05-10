@@ -135,5 +135,6 @@ namespace Reducto
         public ExtractConfigOptions()
         {
         }
+
     }
 }

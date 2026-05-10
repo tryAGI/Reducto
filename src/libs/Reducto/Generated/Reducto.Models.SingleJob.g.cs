@@ -127,5 +127,6 @@ namespace Reducto
         public SingleJob()
         {
         }
+
     }
 }

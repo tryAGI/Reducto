@@ -97,5 +97,6 @@ namespace Reducto
         public ParseResponse()
         {
         }
+
     }
 }

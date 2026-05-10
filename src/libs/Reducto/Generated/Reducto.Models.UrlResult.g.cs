@@ -62,5 +62,6 @@ namespace Reducto
         public UrlResult()
         {
         }
+
     }
 }

@@ -263,5 +263,6 @@ namespace Reducto
         public AsyncExtractConfigNew()
         {
         }
+
     }
 }
