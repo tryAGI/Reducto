@@ -83,5 +83,6 @@ namespace Reducto
         public Formatting()
         {
         }
+
     }
 }

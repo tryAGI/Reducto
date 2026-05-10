@@ -104,5 +104,6 @@ namespace Reducto
         public ClassifyConfig()
         {
         }
+
     }
 }

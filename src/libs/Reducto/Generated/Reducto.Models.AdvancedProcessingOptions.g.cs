@@ -342,5 +342,6 @@ namespace Reducto
         public AdvancedProcessingOptions()
         {
         }
+
     }
 }

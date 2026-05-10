@@ -69,5 +69,6 @@ namespace Reducto
         public Enhance()
         {
         }
+
     }
 }

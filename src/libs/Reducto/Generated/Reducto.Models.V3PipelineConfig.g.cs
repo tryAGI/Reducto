@@ -80,5 +80,6 @@ namespace Reducto
         public V3PipelineConfig()
         {
         }
+
     }
 }

@@ -76,5 +76,6 @@ namespace Reducto
         public PipelineConfig()
         {
         }
+
     }
 }
