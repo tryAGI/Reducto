@@ -123,5 +123,6 @@ namespace Reducto
         public BaseProcessingOptions()
         {
         }
+
     }
 }

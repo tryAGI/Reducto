@@ -13,5 +13,14 @@ namespace Reducto
         global::System.Threading.Tasks.Task<string> GetVersionVersionGetAsync(
             global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Get Version
+        /// </summary>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Reducto.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Reducto.AutoSDKHttpResponse<string>> GetVersionVersionGetAsResponseAsync(
+            global::Reducto.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

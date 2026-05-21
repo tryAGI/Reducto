@@ -155,5 +155,6 @@ namespace Reducto
         public SplitConfig()
         {
         }
+
     }
 }

@@ -96,5 +96,6 @@ namespace Reducto
         public EditConfig()
         {
         }
+
     }
 }

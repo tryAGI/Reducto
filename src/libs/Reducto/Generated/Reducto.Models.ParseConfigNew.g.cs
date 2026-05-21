@@ -95,5 +95,6 @@ namespace Reducto
         public ParseConfigNew()
         {
         }
+
     }
 }

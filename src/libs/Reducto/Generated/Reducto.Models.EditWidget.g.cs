@@ -102,5 +102,6 @@ namespace Reducto
         public EditWidget()
         {
         }
+
     }
 }

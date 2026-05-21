@@ -41,5 +41,6 @@ namespace Reducto
         public ParseAlpha()
         {
         }
+
     }
 }

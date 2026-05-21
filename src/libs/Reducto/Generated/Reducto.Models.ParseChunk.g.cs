@@ -88,5 +88,6 @@ namespace Reducto
         public ParseChunk()
         {
         }
+
     }
 }

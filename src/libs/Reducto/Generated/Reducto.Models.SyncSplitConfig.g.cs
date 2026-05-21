@@ -106,5 +106,6 @@ namespace Reducto
         public SyncSplitConfig()
         {
         }
+
     }
 }

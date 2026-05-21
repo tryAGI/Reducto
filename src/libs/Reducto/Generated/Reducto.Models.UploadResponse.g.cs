@@ -49,5 +49,6 @@ namespace Reducto
         public UploadResponse()
         {
         }
+
     }
 }

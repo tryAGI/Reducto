@@ -77,5 +77,6 @@ namespace Reducto
         public WebhookConfigNew()
         {
         }
+
     }
 }

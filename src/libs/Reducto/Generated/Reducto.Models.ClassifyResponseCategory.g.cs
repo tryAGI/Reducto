@@ -40,5 +40,6 @@ namespace Reducto
         public ClassifyResponseCategory()
         {
         }
+
     }
 }

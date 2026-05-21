@@ -93,5 +93,6 @@ namespace Reducto
         public BoundingBox()
         {
         }
+
     }
 }

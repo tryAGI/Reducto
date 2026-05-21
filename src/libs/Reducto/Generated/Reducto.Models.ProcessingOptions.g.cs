@@ -1322,5 +1322,6 @@ namespace Reducto
         public ProcessingOptions()
         {
         }
+
     }
 }

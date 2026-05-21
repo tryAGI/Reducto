@@ -52,5 +52,6 @@ namespace Reducto
         public SvixWebhookConfig()
         {
         }
+
     }
 }

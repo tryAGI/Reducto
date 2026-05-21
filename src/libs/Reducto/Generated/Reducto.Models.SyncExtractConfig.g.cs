@@ -94,5 +94,6 @@ namespace Reducto
         public SyncExtractConfig()
         {
         }
+
     }
 }

@@ -51,5 +51,6 @@ namespace Reducto
         public TextAgentic()
         {
         }
+
     }
 }

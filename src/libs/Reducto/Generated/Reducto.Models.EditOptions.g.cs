@@ -91,5 +91,6 @@ namespace Reducto
         public EditOptions()
         {
         }
+
     }
 }

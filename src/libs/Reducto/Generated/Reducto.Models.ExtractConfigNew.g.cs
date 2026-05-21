@@ -252,5 +252,6 @@ namespace Reducto
         public ExtractConfigNew()
         {
         }
+
     }
 }
