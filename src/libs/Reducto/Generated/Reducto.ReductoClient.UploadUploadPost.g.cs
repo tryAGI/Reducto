@@ -152,14 +152,6 @@ namespace Reducto
             }
 
                             var __httpRequestContent = new global::System.Net.Http.MultipartFormDataContent();
-                            if (extension != default)
-                            {
-
-                                __httpRequestContent.Add(
-                                    content: new global::System.Net.Http.StringContent(extension ?? string.Empty),
-                                    name: "\"extension\"");
-
-                            }
                             if (request.File != default)
                             {
 
