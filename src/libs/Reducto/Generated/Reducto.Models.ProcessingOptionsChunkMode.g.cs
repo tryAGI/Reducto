@@ -10,27 +10,27 @@ namespace Reducto
     public enum ProcessingOptionsChunkMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Block,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Disabled,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Page,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         PageSections,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Section,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Variable,
     }

@@ -4,32 +4,32 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum EnhancedAsyncJobResponseType2
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Classify,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Edit,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Extract,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Parse,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pipeline,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Split,
     }

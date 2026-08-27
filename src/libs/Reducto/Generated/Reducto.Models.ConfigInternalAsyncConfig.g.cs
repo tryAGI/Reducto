@@ -4,7 +4,7 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ConfigInternalAsyncConfig
     {
@@ -15,7 +15,7 @@ namespace Reducto
         public bool? Enabled { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("webhook")]
         public global::Reducto.WebhookConfig? Webhook { get; set; }

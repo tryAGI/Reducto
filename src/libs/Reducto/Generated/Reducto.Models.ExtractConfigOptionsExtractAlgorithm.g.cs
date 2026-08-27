@@ -10,19 +10,19 @@ namespace Reducto
     public enum ExtractConfigOptionsExtractAlgorithm
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Auto,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Legacy,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         NoOverlap,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Streaming,
     }

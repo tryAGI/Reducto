@@ -10,15 +10,15 @@ namespace Reducto
     public enum ProcessingOptionsEnrichMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Page,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Standard,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Table,
     }

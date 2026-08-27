@@ -4,18 +4,18 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class SplitResult
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("section_mapping")]
         public global::System.Collections.Generic.Dictionary<string, global::System.Collections.Generic.IList<int>>? SectionMapping { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("splits")]
         [global::System.Text.Json.Serialization.JsonRequired]

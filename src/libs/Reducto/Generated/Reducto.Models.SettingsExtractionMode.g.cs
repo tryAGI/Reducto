@@ -10,11 +10,11 @@ namespace Reducto
     public enum SettingsExtractionMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Hybrid,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Ocr,
     }

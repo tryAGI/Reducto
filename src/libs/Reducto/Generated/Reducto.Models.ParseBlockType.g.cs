@@ -9,51 +9,51 @@ namespace Reducto
     public enum ParseBlockType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Comment,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Figure,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Footer,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Header,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         KeyValue,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ListItem,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         PageNumber,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SectionHeader,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Signature,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Table,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Text,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Title,
     }

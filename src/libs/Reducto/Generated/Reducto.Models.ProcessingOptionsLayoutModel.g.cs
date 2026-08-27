@@ -10,43 +10,43 @@ namespace Reducto
     public enum ProcessingOptionsLayoutModel
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Beta,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Default,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         PostprocessV2,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Qwen3527b0317,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetr,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetr0302,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetr0303,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetr0304,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetrbase0218,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         V3Standard,
     }

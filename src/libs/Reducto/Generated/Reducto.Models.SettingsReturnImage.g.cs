@@ -4,20 +4,20 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum SettingsReturnImage
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Figure,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Page,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Table,
     }

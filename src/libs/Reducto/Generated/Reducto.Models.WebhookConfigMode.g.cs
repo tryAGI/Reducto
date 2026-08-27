@@ -9,11 +9,11 @@ namespace Reducto
     public enum WebhookConfigMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Direct,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Svix,
     }

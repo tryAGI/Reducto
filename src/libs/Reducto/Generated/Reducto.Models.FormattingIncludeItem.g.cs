@@ -4,32 +4,32 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum FormattingIncludeItem
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ChangeTracking,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Comments,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Highlight,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Hyperlinks,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         IgnoreWatermarks,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Signatures,
     }

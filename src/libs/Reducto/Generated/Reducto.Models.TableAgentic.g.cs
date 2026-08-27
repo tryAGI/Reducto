@@ -4,12 +4,12 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class TableAgentic
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <default>"table"</default>
         [global::System.Text.Json.Serialization.JsonPropertyName("scope")]

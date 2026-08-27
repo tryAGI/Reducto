@@ -10,31 +10,31 @@ namespace Reducto
     public enum ProcessingOptionsOcrSystem
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Combined,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Gcloud,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ReductoV2,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ReductoV3,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ReductoV3Shadow,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Tesseract,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Textract,
     }

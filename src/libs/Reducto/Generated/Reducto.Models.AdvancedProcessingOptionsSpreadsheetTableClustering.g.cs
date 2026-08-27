@@ -10,15 +10,15 @@ namespace Reducto
     public enum AdvancedProcessingOptionsSpreadsheetTableClustering
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Default,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Disabled,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Intelligent,
     }

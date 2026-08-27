@@ -10,11 +10,11 @@ namespace Reducto
     public enum SplitOptionsTableCutoff
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Preserve,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Truncate,
     }

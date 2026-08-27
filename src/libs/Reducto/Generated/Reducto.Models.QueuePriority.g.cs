@@ -9,11 +9,11 @@ namespace Reducto
     public enum QueuePriority
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Auto,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Batch,
     }

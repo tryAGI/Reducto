@@ -10,11 +10,11 @@ namespace Reducto
     public enum ProcessingOptionsOcrMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Agentic,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Standard,
     }

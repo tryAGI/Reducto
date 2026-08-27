@@ -10,15 +10,15 @@ namespace Reducto
     public enum BaseProcessingOptionsExtractionMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Hybrid,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Metadata,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Ocr,
     }

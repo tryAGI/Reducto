@@ -10,15 +10,15 @@ namespace Reducto
     public enum ProcessingOptionsPdfOcr
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Hybrid,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Ocr,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pdf,
     }

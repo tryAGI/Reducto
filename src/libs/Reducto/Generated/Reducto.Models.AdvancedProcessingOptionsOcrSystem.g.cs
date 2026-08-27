@@ -10,27 +10,27 @@ namespace Reducto
     public enum AdvancedProcessingOptionsOcrSystem
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Combined,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Highres,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Legacy,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Multilingual,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Reducto,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ReductoV2,
     }

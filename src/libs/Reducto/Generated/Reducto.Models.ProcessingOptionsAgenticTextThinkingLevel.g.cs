@@ -9,11 +9,11 @@ namespace Reducto
     public enum ProcessingOptionsAgenticTextThinkingLevel
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         High,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Low,
     }

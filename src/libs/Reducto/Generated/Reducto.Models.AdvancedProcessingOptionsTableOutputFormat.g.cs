@@ -10,31 +10,31 @@ namespace Reducto
     public enum AdvancedProcessingOptionsTableOutputFormat
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         AiJson,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Csv,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Dynamic,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Html,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Json,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Jsonbbox,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Md,
     }

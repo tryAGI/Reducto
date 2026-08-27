@@ -9,7 +9,7 @@ namespace Reducto
     public sealed partial class ResponseConfidence
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("categories")]
         [global::System.Text.Json.Serialization.JsonRequired]

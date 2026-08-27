@@ -4,7 +4,7 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ParseChunk
     {
@@ -36,7 +36,7 @@ namespace Reducto
         public bool? EnrichmentSuccess { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("blocks")]
         [global::System.Text.Json.Serialization.JsonRequired]
