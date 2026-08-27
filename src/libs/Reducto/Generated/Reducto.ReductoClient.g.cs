@@ -10,7 +10,7 @@ namespace Reducto
     public sealed partial class ReductoClient : global::Reducto.IReductoClient, global::System.IDisposable
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public const string DefaultBaseUrl = "https://platform.reducto.ai/";
 
@@ -37,7 +37,7 @@ namespace Reducto
         internal global::System.Lazy<global::System.Text.Json.Serialization.JsonSerializerContext> JsonSerializerContextProvider { get; set; } = new(() => global::Reducto.SourceGenerationContext.Default);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::System.Text.Json.Serialization.JsonSerializerContext JsonSerializerContext
         {

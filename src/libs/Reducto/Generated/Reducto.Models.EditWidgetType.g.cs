@@ -9,23 +9,23 @@ namespace Reducto
     public enum EditWidgetType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Barcode,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Checkbox,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Dropdown,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Radio,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Text,
     }

@@ -4,25 +4,25 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ParseUsage
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("num_pages")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required int NumPages { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("credits")]
         public double? Credits { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("credit_breakdown")]
         public global::System.Collections.Generic.Dictionary<string, double>? CreditBreakdown { get; set; }

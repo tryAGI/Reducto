@@ -9,14 +9,14 @@ namespace Reducto
     public sealed partial class CriteriaConfidence
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("criterion")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Criterion { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("confidence")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.CriteriaConfidenceConfidenceJsonConverter))]

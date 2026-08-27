@@ -4,24 +4,24 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum AsyncJobResponseStatus
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Completed,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Failed,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Idle,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pending,
     }

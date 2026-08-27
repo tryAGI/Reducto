@@ -9,11 +9,11 @@ namespace Reducto
     public enum SplitPartitionConf
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         High,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Low,
     }

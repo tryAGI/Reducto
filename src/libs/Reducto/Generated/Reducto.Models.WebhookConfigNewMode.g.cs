@@ -10,15 +10,15 @@ namespace Reducto
     public enum WebhookConfigNewMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Direct,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Disabled,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Svix,
     }

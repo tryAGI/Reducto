@@ -10,35 +10,35 @@ namespace Reducto
     public enum ExperimentalProcessingOptionsLayoutModel
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Beta,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Default,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Qwen3527b0317,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetr,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetr0302,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetr0303,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetr0304,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rfdetrbase0218,
     }

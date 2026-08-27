@@ -137,7 +137,7 @@ namespace Reducto
                          __authorization.Location == "Header")
                 {
                     __httpRequest.Headers.Add(__authorization.Name, __authorization.Value);
-                } 
+                }
             }
                             var __httpRequestContentBody = request.ToJson(JsonSerializerContext);
                             var __httpRequestContent = new global::System.Net.Http.StringContent(
@@ -482,7 +482,7 @@ namespace Reducto
         ///             3. A reducto:// prefixed URL obtained from the /upload endpoint after directly uploading a document<br/>
         ///             4. A jobid:// prefixed URL obtained from a previous /parse invocation<br/>
         ///             5. A list of URLs (for multi-document pipelines, V3 API only)<br/>
-        ///             For edit pipelines, this should be a string containing the edit instructions 
+        ///             For edit pipelines, this should be a string containing the edit instructions
         /// </param>
         /// <param name="classificationSchema">
         /// A list of classification categories and their matching criteria.<br/>

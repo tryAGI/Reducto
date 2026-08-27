@@ -4,12 +4,12 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class SplitResponse
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("usage")]
         [global::System.Text.Json.Serialization.JsonRequired]

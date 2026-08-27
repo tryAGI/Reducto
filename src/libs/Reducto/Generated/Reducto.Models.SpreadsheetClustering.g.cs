@@ -10,15 +10,15 @@ namespace Reducto
     public enum SpreadsheetClustering
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Accurate,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Disabled,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Fast,
     }

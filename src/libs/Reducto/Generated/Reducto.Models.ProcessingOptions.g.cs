@@ -4,7 +4,7 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ProcessingOptions
     {
@@ -268,7 +268,7 @@ namespace Reducto
         public string? ForceFileMimetype { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("custom_format")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.ProcessingOptionsCustomFormatJsonConverter))]

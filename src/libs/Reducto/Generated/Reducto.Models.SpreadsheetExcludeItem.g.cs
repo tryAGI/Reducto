@@ -4,28 +4,28 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum SpreadsheetExcludeItem
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         HiddenCols,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         HiddenRows,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         HiddenSheets,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SpreadsheetImages,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Styling,
     }

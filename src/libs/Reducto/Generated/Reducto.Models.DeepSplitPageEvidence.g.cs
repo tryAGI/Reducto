@@ -4,26 +4,26 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class DeepSplitPageEvidence
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("page_number")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required int PageNumber { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("evidence")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Evidence { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("confidence")]
         public global::Reducto.DeepSplitPageEvidenceConfidence2? Confidence { get; set; }

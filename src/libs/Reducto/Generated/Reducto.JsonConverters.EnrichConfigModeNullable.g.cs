@@ -20,7 +20,7 @@ namespace Reducto.JsonConverters
                     {
                         return global::Reducto.EnrichConfigModeExtensions.ToEnum(stringValue);
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

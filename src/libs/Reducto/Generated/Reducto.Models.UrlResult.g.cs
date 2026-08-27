@@ -4,7 +4,7 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class UrlResult
     {
@@ -16,14 +16,14 @@ namespace Reducto
         public string Type { get; set; } = "url";
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("url")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Url { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("result_id")]
         [global::System.Text.Json.Serialization.JsonRequired]

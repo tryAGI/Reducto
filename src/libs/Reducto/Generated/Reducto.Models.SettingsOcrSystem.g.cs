@@ -10,11 +10,11 @@ namespace Reducto
     public enum SettingsOcrSystem
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Legacy,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Standard,
     }

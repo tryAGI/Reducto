@@ -4,20 +4,20 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ProcessingOptionsCustomFormat
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         AiUsage,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Aml,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         AmlChunking,
     }

@@ -4,20 +4,20 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum SpreadsheetIncludeItem
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CellColors,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Dropdowns,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Formula,
     }

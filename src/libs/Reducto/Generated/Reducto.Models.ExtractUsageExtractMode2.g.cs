@@ -4,20 +4,20 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ExtractUsageExtractMode2
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Extract,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SpreadsheetAgent,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SuperAgent,
     }

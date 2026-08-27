@@ -4,32 +4,32 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ExtractUsage
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("num_pages")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required int NumPages { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("num_fields")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required int NumFields { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("credits")]
         public double? Credits { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("extract_mode")]
         public global::Reducto.ExtractUsageExtractMode2? ExtractMode { get; set; }

@@ -4,12 +4,12 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class PipelineResult
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("parse")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.ParseResponse, global::System.Collections.Generic.IList<global::Reducto.ParseResponse>, object>))]
@@ -17,7 +17,7 @@ namespace Reducto
         public required global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.IList<global::Reducto.ParseResponse>, object> Parse { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("extract")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse, object>))]
@@ -25,13 +25,13 @@ namespace Reducto
         public required global::Reducto.AnyOf<global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse, object> Extract { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("split")]
         public global::Reducto.SplitResponse? Split { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("edit")]
         public global::Reducto.EditResponse? Edit { get; set; }

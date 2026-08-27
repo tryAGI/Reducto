@@ -10,15 +10,15 @@ namespace Reducto
     public enum EnrichConfigMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Page,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Standard,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Table,
     }

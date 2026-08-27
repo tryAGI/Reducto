@@ -4,12 +4,12 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class FigureAgentic
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <default>"figure"</default>
         [global::System.Text.Json.Serialization.JsonPropertyName("scope")]

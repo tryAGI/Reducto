@@ -4,7 +4,7 @@
 namespace Reducto
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class SyncSplitConfig
     {
@@ -15,7 +15,7 @@ namespace Reducto
         ///             3. A reducto:// prefixed URL obtained from the /upload endpoint after directly uploading a document<br/>
         ///             4. A jobid:// prefixed URL obtained from a previous /parse invocation<br/>
         ///             5. A list of URLs (for multi-document pipelines, V3 API only)<br/>
-        ///             For edit pipelines, this should be a string containing the edit instructions 
+        ///             For edit pipelines, this should be a string containing the edit instructions
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("input")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse>))]
@@ -66,7 +66,7 @@ namespace Reducto
         ///             3. A reducto:// prefixed URL obtained from the /upload endpoint after directly uploading a document<br/>
         ///             4. A jobid:// prefixed URL obtained from a previous /parse invocation<br/>
         ///             5. A list of URLs (for multi-document pipelines, V3 API only)<br/>
-        ///             For edit pipelines, this should be a string containing the edit instructions 
+        ///             For edit pipelines, this should be a string containing the edit instructions
         /// </param>
         /// <param name="splitDescription">
         /// The configuration options for processing the document.

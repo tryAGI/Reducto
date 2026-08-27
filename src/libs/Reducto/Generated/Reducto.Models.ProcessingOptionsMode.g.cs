@@ -10,15 +10,15 @@ namespace Reducto
     public enum ProcessingOptionsMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Auto,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Deck,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Document,
     }
