@@ -57,13 +57,13 @@ namespace Reducto
 
             typeof(global::Reducto.JsonConverters.CriteriaConfidenceConfidenceNullableJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.DeepSplitPageEvidenceConfidence2JsonConverter),
+            typeof(global::Reducto.JsonConverters.DeepSplitPageEvidenceConfidenceJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.DeepSplitPageEvidenceConfidence2NullableJsonConverter),
+            typeof(global::Reducto.JsonConverters.DeepSplitPageEvidenceConfidenceNullableJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.EditOptionsLlmProviderPreference2JsonConverter),
+            typeof(global::Reducto.JsonConverters.EditOptionsLlmProviderPreferenceJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.EditOptionsLlmProviderPreference2NullableJsonConverter),
+            typeof(global::Reducto.JsonConverters.EditOptionsLlmProviderPreferenceNullableJsonConverter),
 
             typeof(global::Reducto.JsonConverters.EditWidgetTypeJsonConverter),
 
@@ -73,9 +73,9 @@ namespace Reducto
 
             typeof(global::Reducto.JsonConverters.EnhancedAsyncJobResponseStatusNullableJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.EnhancedAsyncJobResponseType2JsonConverter),
+            typeof(global::Reducto.JsonConverters.EnhancedAsyncJobResponseTypeJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.EnhancedAsyncJobResponseType2NullableJsonConverter),
+            typeof(global::Reducto.JsonConverters.EnhancedAsyncJobResponseTypeNullableJsonConverter),
 
             typeof(global::Reducto.JsonConverters.EnrichConfigModeJsonConverter),
 
@@ -89,9 +89,9 @@ namespace Reducto
 
             typeof(global::Reducto.JsonConverters.ExtractConfigOptionsExtractAlgorithmNullableJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.ExtractUsageExtractMode2JsonConverter),
+            typeof(global::Reducto.JsonConverters.ExtractUsageExtractModeJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.ExtractUsageExtractMode2NullableJsonConverter),
+            typeof(global::Reducto.JsonConverters.ExtractUsageExtractModeNullableJsonConverter),
 
             typeof(global::Reducto.JsonConverters.FormattingTableOutputFormatJsonConverter),
 
@@ -149,9 +149,9 @@ namespace Reducto
 
             typeof(global::Reducto.JsonConverters.ProcessingOptionsSpreadsheetTableClusteringNullableJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.ProcessingOptionsSpreadsheetLoader2JsonConverter),
+            typeof(global::Reducto.JsonConverters.ProcessingOptionsSpreadsheetLoaderJsonConverter),
 
-            typeof(global::Reducto.JsonConverters.ProcessingOptionsSpreadsheetLoader2NullableJsonConverter),
+            typeof(global::Reducto.JsonConverters.ProcessingOptionsSpreadsheetLoaderNullableJsonConverter),
 
             typeof(global::Reducto.JsonConverters.ProcessingOptionsLayoutModelJsonConverter),
 
@@ -405,12 +405,12 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.DeepSplitPageEvidence))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Reducto.DeepSplitPartition>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.DeepSplitPartition))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.DeepSplitPageEvidenceConfidence2), TypeInfoPropertyName = "DeepSplitPageEvidenceConfidence22")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.DeepSplitPageEvidenceConfidence), TypeInfoPropertyName = "DeepSplitPageEvidenceConfidence2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.DeepSplitResult))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Reducto.DeepSplit>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.DirectWebhookConfig))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EditConfig))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EditOptionsLlmProviderPreference2), TypeInfoPropertyName = "EditOptionsLlmProviderPreference22")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EditOptionsLlmProviderPreference), TypeInfoPropertyName = "EditOptionsLlmProviderPreference2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ParseUsage))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EditWidgetType), TypeInfoPropertyName = "EditWidgetType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Reducto.AnyOf<global::Reducto.TableAgentic, global::Reducto.FigureAgentic, global::Reducto.TextAgentic>>))]
@@ -420,7 +420,7 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.TextAgentic))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EnhancedAsyncJobResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EnhancedAsyncJobResponseStatus), TypeInfoPropertyName = "EnhancedAsyncJobResponseStatus2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EnhancedAsyncJobResponseType2), TypeInfoPropertyName = "EnhancedAsyncJobResponseType22")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EnhancedAsyncJobResponseType), TypeInfoPropertyName = "EnhancedAsyncJobResponseType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.DateTime))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EnrichConfig))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.EnrichConfigMode), TypeInfoPropertyName = "EnrichConfigMode2")]
@@ -438,7 +438,7 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<object>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ExtractSplitResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse>), TypeInfoPropertyName = "AnyOfExtractResponseV3ExtractResponse2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ExtractUsageExtractMode2), TypeInfoPropertyName = "ExtractUsageExtractMode22")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ExtractUsageExtractMode), TypeInfoPropertyName = "ExtractUsageExtractMode2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.FormattingTableOutputFormat), TypeInfoPropertyName = "FormattingTableOutputFormat2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Reducto.FormattingIncludeItem>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.FormattingIncludeItem), TypeInfoPropertyName = "FormattingIncludeItem2")]
@@ -487,7 +487,7 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsIgnoreBlock), TypeInfoPropertyName = "ProcessingOptionsIgnoreBlock2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsCustomFormat), TypeInfoPropertyName = "ProcessingOptionsCustomFormat2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsSpreadsheetTableClustering), TypeInfoPropertyName = "ProcessingOptionsSpreadsheetTableClustering2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsSpreadsheetLoader2), TypeInfoPropertyName = "ProcessingOptionsSpreadsheetLoader22")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsSpreadsheetLoader), TypeInfoPropertyName = "ProcessingOptionsSpreadsheetLoader2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsLayoutModel), TypeInfoPropertyName = "ProcessingOptionsLayoutModel2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsAgenticTextThinkingLevel), TypeInfoPropertyName = "ProcessingOptionsAgenticTextThinkingLevel2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOverridesBase))]

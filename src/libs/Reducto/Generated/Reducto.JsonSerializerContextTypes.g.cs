@@ -397,7 +397,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.DeepSplitPageEvidenceConfidence2? Type91 { get; set; }
+        public global::Reducto.DeepSplitPageEvidenceConfidence? Type91 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -417,7 +417,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EditOptionsLlmProviderPreference2? Type96 { get; set; }
+        public global::Reducto.EditOptionsLlmProviderPreference? Type96 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -457,7 +457,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EnhancedAsyncJobResponseType2? Type106 { get; set; }
+        public global::Reducto.EnhancedAsyncJobResponseType? Type106 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -529,7 +529,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractUsageExtractMode2? Type124 { get; set; }
+        public global::Reducto.ExtractUsageExtractMode? Type124 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -725,7 +725,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsSpreadsheetLoader2? Type173 { get; set; }
+        public global::Reducto.ProcessingOptionsSpreadsheetLoader? Type173 { get; set; }
         /// <summary>
         ///
         /// </summary>

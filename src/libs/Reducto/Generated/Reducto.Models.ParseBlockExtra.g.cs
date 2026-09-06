@@ -4,7 +4,7 @@
 namespace Reducto
 {
     /// <summary>
-    /// Extra metadata fields for the block. Fields like 'is_chart' will only appear when set to True.
+    ///
     /// </summary>
     public sealed partial class ParseBlockExtra
     {

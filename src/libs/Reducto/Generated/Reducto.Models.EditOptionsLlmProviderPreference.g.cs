@@ -4,16 +4,54 @@
 namespace Reducto
 {
     /// <summary>
-    /// The LLM provider to use for edit processing. If not specified, defaults to 'google'
+    ///
     /// </summary>
-    public sealed partial class EditOptionsLlmProviderPreference
+    public enum EditOptionsLlmProviderPreference
     {
-
         /// <summary>
-        /// Additional properties that are not explicitly defined in the schema
+        ///
         /// </summary>
-        [global::System.Text.Json.Serialization.JsonExtensionData]
-        public global::System.Collections.Generic.IDictionary<string, object> AdditionalProperties { get; set; } = new global::System.Collections.Generic.Dictionary<string, object>();
+        Anthropic,
+        /// <summary>
+        ///
+        /// </summary>
+        Google,
+        /// <summary>
+        ///
+        /// </summary>
+        Openai,
+    }
 
+    /// <summary>
+    /// Enum extensions to do fast conversions without the reflection.
+    /// </summary>
+    public static class EditOptionsLlmProviderPreferenceExtensions
+    {
+        /// <summary>
+        /// Converts an enum to a string.
+        /// </summary>
+        public static string ToValueString(this EditOptionsLlmProviderPreference value)
+        {
+            return value switch
+            {
+                EditOptionsLlmProviderPreference.Anthropic => "anthropic",
+                EditOptionsLlmProviderPreference.Google => "google",
+                EditOptionsLlmProviderPreference.Openai => "openai",
+                _ => throw new global::System.ArgumentOutOfRangeException(nameof(value), value, null),
+            };
+        }
+        /// <summary>
+        /// Converts an string to a enum.
+        /// </summary>
+        public static EditOptionsLlmProviderPreference? ToEnum(string value)
+        {
+            return value switch
+            {
+                "anthropic" => EditOptionsLlmProviderPreference.Anthropic,
+                "google" => EditOptionsLlmProviderPreference.Google,
+                "openai" => EditOptionsLlmProviderPreference.Openai,
+                _ => null,
+            };
+        }
     }
 }

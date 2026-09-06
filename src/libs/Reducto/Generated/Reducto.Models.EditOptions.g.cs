@@ -25,7 +25,7 @@ namespace Reducto
         /// The LLM provider to use for edit processing. If not specified, defaults to 'google'
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("llm_provider_preference")]
-        public global::Reducto.EditOptionsLlmProviderPreference2? LlmProviderPreference { get; set; }
+        public global::Reducto.EditOptionsLlmProviderPreference? LlmProviderPreference { get; set; }
 
         /// <summary>
         /// If True, creates overflow pages for text that doesn't fit in form fields. Defaults to False.<br/>
@@ -74,7 +74,7 @@ namespace Reducto
         public EditOptions(
             string? color,
             double? fontSize,
-            global::Reducto.EditOptionsLlmProviderPreference2? llmProviderPreference,
+            global::Reducto.EditOptionsLlmProviderPreference? llmProviderPreference,
             bool? enableOverflowPages,
             bool? flatten)
         {

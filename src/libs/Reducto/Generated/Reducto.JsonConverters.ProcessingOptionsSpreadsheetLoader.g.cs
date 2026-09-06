@@ -3,10 +3,10 @@
 namespace Reducto.JsonConverters
 {
     /// <inheritdoc />
-    public sealed class ProcessingOptionsSpreadsheetLoader2JsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Reducto.ProcessingOptionsSpreadsheetLoader2>
+    public sealed class ProcessingOptionsSpreadsheetLoaderJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Reducto.ProcessingOptionsSpreadsheetLoader>
     {
         /// <inheritdoc />
-        public override global::Reducto.ProcessingOptionsSpreadsheetLoader2 Read(
+        public override global::Reducto.ProcessingOptionsSpreadsheetLoader Read(
             ref global::System.Text.Json.Utf8JsonReader reader,
             global::System.Type typeToConvert,
             global::System.Text.Json.JsonSerializerOptions options)
@@ -18,7 +18,7 @@ namespace Reducto.JsonConverters
                     var stringValue = reader.GetString();
                     if (stringValue != null)
                     {
-                        return global::Reducto.ProcessingOptionsSpreadsheetLoader2Extensions.ToEnum(stringValue) ?? default;
+                        return global::Reducto.ProcessingOptionsSpreadsheetLoaderExtensions.ToEnum(stringValue) ?? default;
                     }
 
                     break;
@@ -26,11 +26,11 @@ namespace Reducto.JsonConverters
                 case global::System.Text.Json.JsonTokenType.Number:
                 {
                     var numValue = reader.GetInt32();
-                    return (global::Reducto.ProcessingOptionsSpreadsheetLoader2)numValue;
+                    return (global::Reducto.ProcessingOptionsSpreadsheetLoader)numValue;
                 }
                 case global::System.Text.Json.JsonTokenType.Null:
                 {
-                    return default(global::Reducto.ProcessingOptionsSpreadsheetLoader2);
+                    return default(global::Reducto.ProcessingOptionsSpreadsheetLoader);
                 }
                 default:
                     throw new global::System.ArgumentOutOfRangeException(nameof(reader));
@@ -42,12 +42,12 @@ namespace Reducto.JsonConverters
         /// <inheritdoc />
         public override void Write(
             global::System.Text.Json.Utf8JsonWriter writer,
-            global::Reducto.ProcessingOptionsSpreadsheetLoader2 value,
+            global::Reducto.ProcessingOptionsSpreadsheetLoader value,
             global::System.Text.Json.JsonSerializerOptions options)
         {
             writer = writer ?? throw new global::System.ArgumentNullException(nameof(writer));
 
-            writer.WriteStringValue(global::Reducto.ProcessingOptionsSpreadsheetLoader2Extensions.ToValueString(value));
+            writer.WriteStringValue(global::Reducto.ProcessingOptionsSpreadsheetLoaderExtensions.ToValueString(value));
         }
     }
 }

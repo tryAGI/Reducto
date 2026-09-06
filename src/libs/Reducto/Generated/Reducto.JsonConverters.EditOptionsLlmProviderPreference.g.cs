@@ -3,10 +3,10 @@
 namespace Reducto.JsonConverters
 {
     /// <inheritdoc />
-    public sealed class EnhancedAsyncJobResponseType2NullableJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Reducto.EnhancedAsyncJobResponseType2?>
+    public sealed class EditOptionsLlmProviderPreferenceJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Reducto.EditOptionsLlmProviderPreference>
     {
         /// <inheritdoc />
-        public override global::Reducto.EnhancedAsyncJobResponseType2? Read(
+        public override global::Reducto.EditOptionsLlmProviderPreference Read(
             ref global::System.Text.Json.Utf8JsonReader reader,
             global::System.Type typeToConvert,
             global::System.Text.Json.JsonSerializerOptions options)
@@ -18,7 +18,7 @@ namespace Reducto.JsonConverters
                     var stringValue = reader.GetString();
                     if (stringValue != null)
                     {
-                        return global::Reducto.EnhancedAsyncJobResponseType2Extensions.ToEnum(stringValue);
+                        return global::Reducto.EditOptionsLlmProviderPreferenceExtensions.ToEnum(stringValue) ?? default;
                     }
 
                     break;
@@ -26,11 +26,11 @@ namespace Reducto.JsonConverters
                 case global::System.Text.Json.JsonTokenType.Number:
                 {
                     var numValue = reader.GetInt32();
-                    return (global::Reducto.EnhancedAsyncJobResponseType2)numValue;
+                    return (global::Reducto.EditOptionsLlmProviderPreference)numValue;
                 }
                 case global::System.Text.Json.JsonTokenType.Null:
                 {
-                    return default(global::Reducto.EnhancedAsyncJobResponseType2?);
+                    return default(global::Reducto.EditOptionsLlmProviderPreference);
                 }
                 default:
                     throw new global::System.ArgumentOutOfRangeException(nameof(reader));
@@ -42,19 +42,12 @@ namespace Reducto.JsonConverters
         /// <inheritdoc />
         public override void Write(
             global::System.Text.Json.Utf8JsonWriter writer,
-            global::Reducto.EnhancedAsyncJobResponseType2? value,
+            global::Reducto.EditOptionsLlmProviderPreference value,
             global::System.Text.Json.JsonSerializerOptions options)
         {
             writer = writer ?? throw new global::System.ArgumentNullException(nameof(writer));
 
-            if (value == null)
-            {
-                writer.WriteNullValue();
-            }
-            else
-            {
-                writer.WriteStringValue(global::Reducto.EnhancedAsyncJobResponseType2Extensions.ToValueString(value.Value));
-            }
+            writer.WriteStringValue(global::Reducto.EditOptionsLlmProviderPreferenceExtensions.ToValueString(value));
         }
     }
 }

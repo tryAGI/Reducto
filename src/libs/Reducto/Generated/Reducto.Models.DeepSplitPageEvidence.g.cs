@@ -26,7 +26,7 @@ namespace Reducto
         ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("confidence")]
-        public global::Reducto.DeepSplitPageEvidenceConfidence2? Confidence { get; set; }
+        public global::Reducto.DeepSplitPageEvidenceConfidence? Confidence { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -46,7 +46,7 @@ namespace Reducto
         public DeepSplitPageEvidence(
             int pageNumber,
             string evidence,
-            global::Reducto.DeepSplitPageEvidenceConfidence2? confidence)
+            global::Reducto.DeepSplitPageEvidenceConfidence? confidence)
         {
             this.PageNumber = pageNumber;
             this.Evidence = evidence ?? throw new global::System.ArgumentNullException(nameof(evidence));
