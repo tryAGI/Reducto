@@ -39,7 +39,7 @@ namespace Reducto
         ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("type")]
-        public global::Reducto.EnhancedAsyncJobResponseType2? Type { get; set; }
+        public global::Reducto.EnhancedAsyncJobResponseType? Type { get; set; }
 
         /// <summary>
         ///
@@ -112,7 +112,7 @@ namespace Reducto
             global::Reducto.AnyOf<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse, object>? result,
             double? progress,
             string? reason,
-            global::Reducto.EnhancedAsyncJobResponseType2? type,
+            global::Reducto.EnhancedAsyncJobResponseType? type,
             int? numPages,
             int? totalPages,
             object? source,

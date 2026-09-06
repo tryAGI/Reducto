@@ -535,7 +535,7 @@ namespace Reducto
         /// Spreadsheet loader backend. 'default' uses calamine (Rust), 'legacy' uses openpyxl. None defaults to calamine.
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("spreadsheet_loader")]
-        public global::Reducto.ProcessingOptionsSpreadsheetLoader2? SpreadsheetLoader { get; set; }
+        public global::Reducto.ProcessingOptionsSpreadsheetLoader? SpreadsheetLoader { get; set; }
 
         /// <summary>
         /// If True, filter out boxes with width greater than 50% of the document width. Defaults to False. You probably don't want to use this.<br/>
@@ -1186,7 +1186,7 @@ namespace Reducto
             bool? returnTableImages,
             bool? returnPageImages,
             global::Reducto.ProcessingOptionsSpreadsheetTableClustering? spreadsheetTableClustering,
-            global::Reducto.ProcessingOptionsSpreadsheetLoader2? spreadsheetLoader,
+            global::Reducto.ProcessingOptionsSpreadsheetLoader? spreadsheetLoader,
             bool? dangerFilterWideBoxes,
             bool? addPageMarkers,
             string? customerId,

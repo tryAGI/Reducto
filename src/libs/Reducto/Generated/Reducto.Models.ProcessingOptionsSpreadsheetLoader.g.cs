@@ -4,16 +4,48 @@
 namespace Reducto
 {
     /// <summary>
-    /// Spreadsheet loader backend. 'default' uses calamine (Rust), 'legacy' uses openpyxl. None defaults to calamine.
+    ///
     /// </summary>
-    public sealed partial class ProcessingOptionsSpreadsheetLoader
+    public enum ProcessingOptionsSpreadsheetLoader
     {
-
         /// <summary>
-        /// Additional properties that are not explicitly defined in the schema
+        ///
         /// </summary>
-        [global::System.Text.Json.Serialization.JsonExtensionData]
-        public global::System.Collections.Generic.IDictionary<string, object> AdditionalProperties { get; set; } = new global::System.Collections.Generic.Dictionary<string, object>();
+        Default,
+        /// <summary>
+        ///
+        /// </summary>
+        Legacy,
+    }
 
+    /// <summary>
+    /// Enum extensions to do fast conversions without the reflection.
+    /// </summary>
+    public static class ProcessingOptionsSpreadsheetLoaderExtensions
+    {
+        /// <summary>
+        /// Converts an enum to a string.
+        /// </summary>
+        public static string ToValueString(this ProcessingOptionsSpreadsheetLoader value)
+        {
+            return value switch
+            {
+                ProcessingOptionsSpreadsheetLoader.Default => "default",
+                ProcessingOptionsSpreadsheetLoader.Legacy => "legacy",
+                _ => throw new global::System.ArgumentOutOfRangeException(nameof(value), value, null),
+            };
+        }
+        /// <summary>
+        /// Converts an string to a enum.
+        /// </summary>
+        public static ProcessingOptionsSpreadsheetLoader? ToEnum(string value)
+        {
+            return value switch
+            {
+                "default" => ProcessingOptionsSpreadsheetLoader.Default,
+                "legacy" => ProcessingOptionsSpreadsheetLoader.Legacy,
+                _ => null,
+            };
+        }
     }
 }

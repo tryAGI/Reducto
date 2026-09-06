@@ -32,7 +32,7 @@ namespace Reducto
         ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("extract_mode")]
-        public global::Reducto.ExtractUsageExtractMode2? ExtractMode { get; set; }
+        public global::Reducto.ExtractUsageExtractMode? ExtractMode { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -54,7 +54,7 @@ namespace Reducto
             int numPages,
             int numFields,
             double? credits,
-            global::Reducto.ExtractUsageExtractMode2? extractMode)
+            global::Reducto.ExtractUsageExtractMode? extractMode)
         {
             this.NumPages = numPages;
             this.NumFields = numFields;

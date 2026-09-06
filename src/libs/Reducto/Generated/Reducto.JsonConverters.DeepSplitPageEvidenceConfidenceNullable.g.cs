@@ -3,10 +3,10 @@
 namespace Reducto.JsonConverters
 {
     /// <inheritdoc />
-    public sealed class ExtractUsageExtractMode2NullableJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Reducto.ExtractUsageExtractMode2?>
+    public sealed class DeepSplitPageEvidenceConfidenceNullableJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Reducto.DeepSplitPageEvidenceConfidence?>
     {
         /// <inheritdoc />
-        public override global::Reducto.ExtractUsageExtractMode2? Read(
+        public override global::Reducto.DeepSplitPageEvidenceConfidence? Read(
             ref global::System.Text.Json.Utf8JsonReader reader,
             global::System.Type typeToConvert,
             global::System.Text.Json.JsonSerializerOptions options)
@@ -18,7 +18,7 @@ namespace Reducto.JsonConverters
                     var stringValue = reader.GetString();
                     if (stringValue != null)
                     {
-                        return global::Reducto.ExtractUsageExtractMode2Extensions.ToEnum(stringValue);
+                        return global::Reducto.DeepSplitPageEvidenceConfidenceExtensions.ToEnum(stringValue);
                     }
 
                     break;
@@ -26,11 +26,11 @@ namespace Reducto.JsonConverters
                 case global::System.Text.Json.JsonTokenType.Number:
                 {
                     var numValue = reader.GetInt32();
-                    return (global::Reducto.ExtractUsageExtractMode2)numValue;
+                    return (global::Reducto.DeepSplitPageEvidenceConfidence)numValue;
                 }
                 case global::System.Text.Json.JsonTokenType.Null:
                 {
-                    return default(global::Reducto.ExtractUsageExtractMode2?);
+                    return default(global::Reducto.DeepSplitPageEvidenceConfidence?);
                 }
                 default:
                     throw new global::System.ArgumentOutOfRangeException(nameof(reader));
@@ -42,7 +42,7 @@ namespace Reducto.JsonConverters
         /// <inheritdoc />
         public override void Write(
             global::System.Text.Json.Utf8JsonWriter writer,
-            global::Reducto.ExtractUsageExtractMode2? value,
+            global::Reducto.DeepSplitPageEvidenceConfidence? value,
             global::System.Text.Json.JsonSerializerOptions options)
         {
             writer = writer ?? throw new global::System.ArgumentNullException(nameof(writer));
@@ -53,7 +53,7 @@ namespace Reducto.JsonConverters
             }
             else
             {
-                writer.WriteStringValue(global::Reducto.ExtractUsageExtractMode2Extensions.ToValueString(value.Value));
+                writer.WriteStringValue(global::Reducto.DeepSplitPageEvidenceConfidenceExtensions.ToValueString(value.Value));
             }
         }
     }
