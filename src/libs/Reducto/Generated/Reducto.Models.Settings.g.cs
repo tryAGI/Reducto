@@ -75,8 +75,8 @@ namespace Reducto
         /// The page range to process (1-indexed). By default, the entire document is processed. For spreadsheets, you can also provide a list of sheet names.
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("page_range")]
-        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>, object>))]
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>, object>? PageRange { get; set; }
+        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>))]
+        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>? PageRange { get; set; }
 
         /// <summary>
         /// Password to decrypt password-protected documents.
@@ -146,7 +146,7 @@ namespace Reducto
             bool? embedPdfMetadata,
             bool? persistResults,
             double? timeout,
-            global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>, object>? pageRange,
+            global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>? pageRange,
             string? documentPassword)
         {
             this.OcrSystem = ocrSystem;

@@ -193,583 +193,583 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ParseResponse? Type40 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse>? Type40 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractResponse? Type41 { get; set; }
+        public global::Reducto.ParseResponse? Type41 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.SplitResponse? Type42 { get; set; }
+        public global::Reducto.ExtractResponse? Type42 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EditResponse? Type43 { get; set; }
+        public global::Reducto.SplitResponse? Type43 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.PipelineResponse? Type44 { get; set; }
+        public global::Reducto.EditResponse? Type44 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.V3ExtractResponse? Type45 { get; set; }
+        public global::Reducto.PipelineResponse? Type45 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ClassifyResponse? Type46 { get; set; }
+        public global::Reducto.V3ExtractResponse? Type46 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public double? Type47 { get; set; }
+        public global::Reducto.ClassifyResponse? Type47 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AsyncParseConfig? Type48 { get; set; }
+        public double? Type48 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.Enhance? Type49 { get; set; }
+        public global::Reducto.AsyncParseConfig? Type49 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.Retrieval? Type50 { get; set; }
+        public global::Reducto.Enhance? Type50 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.Formatting? Type51 { get; set; }
+        public global::Reducto.Retrieval? Type51 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.Spreadsheet? Type52 { get; set; }
+        public global::Reducto.Formatting? Type52 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.Settings? Type53 { get; set; }
+        public global::Reducto.Spreadsheet? Type53 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.QueuePriority? Type54 { get; set; }
+        public global::Reducto.Settings? Type54 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AsyncParseConfigNew? Type55 { get; set; }
+        public global::Reducto.QueuePriority? Type55 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AsyncParseResponse? Type56 { get; set; }
+        public global::Reducto.AsyncParseConfigNew? Type56 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AsyncPipelineConfig? Type57 { get; set; }
+        public global::Reducto.AsyncParseResponse? Type57 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.PipelineSettings? Type58 { get; set; }
+        public global::Reducto.AsyncPipelineConfig? Type58 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AsyncPipelineResponse? Type59 { get; set; }
+        public global::Reducto.PipelineSettings? Type59 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AsyncSplitResponse? Type60 { get; set; }
+        public global::Reducto.AsyncPipelineResponse? Type60 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.BaseProcessingOptionsOcrMode? Type61 { get; set; }
+        public global::Reducto.AsyncSplitResponse? Type61 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.BaseProcessingOptionsExtractionMode? Type62 { get; set; }
+        public global::Reducto.BaseProcessingOptionsOcrMode? Type62 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ChunkingConfig? Type63 { get; set; }
+        public global::Reducto.BaseProcessingOptionsExtractionMode? Type63 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.TableSummaryConfig? Type64 { get; set; }
+        public global::Reducto.ChunkingConfig? Type64 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.FigureSummaryConfig? Type65 { get; set; }
+        public global::Reducto.TableSummaryConfig? Type65 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.BaseProcessingOptionsFilterBlock>? Type66 { get; set; }
+        public global::Reducto.FigureSummaryConfig? Type66 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.BaseProcessingOptionsFilterBlock? Type67 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.BaseProcessingOptionsFilterBlock>? Type67 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.BodyUploadUploadPost? Type68 { get; set; }
+        public global::Reducto.BaseProcessingOptionsFilterBlock? Type68 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public byte[]? Type69 { get; set; }
+        public global::Reducto.BodyUploadUploadPost? Type69 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.BoundingBox? Type70 { get; set; }
+        public byte[]? Type70 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.CategoryConfidence? Type71 { get; set; }
+        public global::Reducto.BoundingBox? Type71 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.CriteriaConfidence>? Type72 { get; set; }
+        public global::Reducto.CategoryConfidence? Type72 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.CriteriaConfidence? Type73 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.CriteriaConfidence>? Type73 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.Chunking? Type74 { get; set; }
+        public global::Reducto.CriteriaConfidence? Type74 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ChunkingChunkMode? Type75 { get; set; }
+        public global::Reducto.Chunking? Type75 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ChunkingConfigChunkMode? Type76 { get; set; }
+        public global::Reducto.ChunkingChunkMode? Type76 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.Citations? Type77 { get; set; }
+        public global::Reducto.ChunkingConfigChunkMode? Type77 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ClassificationCategory? Type78 { get; set; }
+        public global::Reducto.Citations? Type78 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ClassifyConfig? Type79 { get; set; }
+        public global::Reducto.ClassificationCategory? Type79 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.ClassificationCategory>? Type80 { get; set; }
+        public global::Reducto.ClassifyConfig? Type80 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, object>? Type81 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.ClassificationCategory>? Type81 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ClassifyResponseCategory? Type82 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>>? Type82 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ResponseConfidence? Type83 { get; set; }
+        public global::Reducto.ClassifyResponseCategory? Type83 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.CriteriaConfidenceConfidence? Type84 { get; set; }
+        public global::Reducto.ResponseConfidence? Type84 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.CustomerQueueOverrides? Type85 { get; set; }
+        public global::Reducto.CriteriaConfidenceConfidence? Type85 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.DeepSplit? Type86 { get; set; }
+        public global::Reducto.CustomerQueueOverrides? Type86 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.DeepSplitPageEvidence>? Type87 { get; set; }
+        public global::Reducto.DeepSplit? Type87 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.DeepSplitPageEvidence? Type88 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.DeepSplitPageEvidence>? Type88 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.DeepSplitPartition>? Type89 { get; set; }
+        public global::Reducto.DeepSplitPageEvidence? Type89 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.DeepSplitPartition? Type90 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.DeepSplitPartition>? Type90 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.DeepSplitPageEvidenceConfidence? Type91 { get; set; }
+        public global::Reducto.DeepSplitPartition? Type91 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.DeepSplitResult? Type92 { get; set; }
+        public global::Reducto.DeepSplitPageEvidenceConfidence? Type92 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.DeepSplit>? Type93 { get; set; }
+        public global::Reducto.DeepSplitResult? Type93 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.DirectWebhookConfig? Type94 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.DeepSplit>? Type94 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EditConfig? Type95 { get; set; }
+        public global::Reducto.DirectWebhookConfig? Type95 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EditOptionsLlmProviderPreference? Type96 { get; set; }
+        public global::Reducto.EditConfig? Type96 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ParseUsage? Type97 { get; set; }
+        public global::Reducto.EditOptionsLlmProviderPreference? Type97 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EditWidgetType? Type98 { get; set; }
+        public global::Reducto.ParseUsage? Type98 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.AnyOf<global::Reducto.TableAgentic, global::Reducto.FigureAgentic, global::Reducto.TextAgentic>>? Type99 { get; set; }
+        public global::Reducto.EditWidgetType? Type99 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.TableAgentic, global::Reducto.FigureAgentic, global::Reducto.TextAgentic>? Type100 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.AnyOf<global::Reducto.TableAgentic, global::Reducto.FigureAgentic, global::Reducto.TextAgentic>>? Type100 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.TableAgentic? Type101 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.TableAgentic, global::Reducto.FigureAgentic, global::Reducto.TextAgentic>? Type101 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.FigureAgentic? Type102 { get; set; }
+        public global::Reducto.TableAgentic? Type102 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.TextAgentic? Type103 { get; set; }
+        public global::Reducto.FigureAgentic? Type103 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EnhancedAsyncJobResponse? Type104 { get; set; }
+        public global::Reducto.TextAgentic? Type104 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EnhancedAsyncJobResponseStatus? Type105 { get; set; }
+        public global::Reducto.EnhancedAsyncJobResponse? Type105 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EnhancedAsyncJobResponseType? Type106 { get; set; }
+        public global::Reducto.EnhancedAsyncJobResponseStatus? Type106 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.DateTime? Type107 { get; set; }
+        public global::Reducto.EnhancedAsyncJobResponseType? Type107 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EnrichConfig? Type108 { get; set; }
+        public global::System.DateTime? Type108 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.EnrichConfigMode? Type109 { get; set; }
+        public global::Reducto.EnrichConfig? Type109 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExperimentalProcessingOptionsLayoutModel? Type110 { get; set; }
+        public global::Reducto.EnrichConfigMode? Type110 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractAlpha? Type111 { get; set; }
+        public global::Reducto.ExperimentalProcessingOptionsLayoutModel? Type111 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractCitationsOverrides? Type112 { get; set; }
+        public global::Reducto.ExtractAlpha? Type112 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractConfig? Type113 { get; set; }
+        public global::Reducto.ExtractCitationsOverrides? Type113 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<string, global::System.Collections.Generic.IList<string>>? Type114 { get; set; }
+        public global::Reducto.ExtractConfig? Type114 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptions? Type115 { get; set; }
+        public global::Reducto.AnyOf<string, global::System.Collections.Generic.IList<string>>? Type115 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractConfigOptions? Type116 { get; set; }
+        public global::Reducto.ProcessingOptions? Type116 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ConfigInternalAsyncConfig? Type117 { get; set; }
+        public global::Reducto.ExtractConfigOptions? Type117 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractConfigNew? Type118 { get; set; }
+        public global::Reducto.ConfigInternalAsyncConfig? Type118 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractConfigOptionsExtractAlgorithm? Type119 { get; set; }
+        public global::Reducto.ExtractConfigNew? Type119 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractUsage? Type120 { get; set; }
+        public global::Reducto.ExtractConfigOptionsExtractAlgorithm? Type120 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<object>? Type121 { get; set; }
+        public global::Reducto.ExtractUsage? Type121 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractSplitResponse? Type122 { get; set; }
+        public global::System.Collections.Generic.IList<object>? Type122 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse>? Type123 { get; set; }
+        public global::Reducto.ExtractSplitResponse? Type123 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ExtractUsageExtractMode? Type124 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse>? Type124 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.FormattingTableOutputFormat? Type125 { get; set; }
+        public global::Reducto.ExtractUsageExtractMode? Type125 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.FormattingIncludeItem>? Type126 { get; set; }
+        public global::Reducto.FormattingTableOutputFormat? Type126 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.FormattingIncludeItem? Type127 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.FormattingIncludeItem>? Type127 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.FullResult? Type128 { get; set; }
+        public global::Reducto.FormattingIncludeItem? Type128 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.ParseChunk>? Type129 { get; set; }
+        public global::Reducto.FullResult? Type129 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ParseChunk? Type130 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.ParseChunk>? Type130 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.OCRResult? Type131 { get; set; }
+        public global::Reducto.ParseChunk? Type131 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.GranularConfidence? Type132 { get; set; }
+        public global::Reducto.OCRResult? Type132 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.HTTPValidationError? Type133 { get; set; }
+        public global::Reducto.GranularConfidence? Type133 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.ValidationError>? Type134 { get; set; }
+        public global::Reducto.HTTPValidationError? Type134 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ValidationError? Type135 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.ValidationError>? Type135 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.JobsResponse? Type136 { get; set; }
+        public global::Reducto.ValidationError? Type136 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.SingleJob>? Type137 { get; set; }
+        public global::Reducto.JobsResponse? Type137 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.SingleJob? Type138 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.SingleJob>? Type138 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.KeyValueOverrides? Type139 { get; set; }
+        public global::Reducto.SingleJob? Type139 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.LayoutAgentic? Type140 { get; set; }
+        public global::Reducto.KeyValueOverrides? Type140 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.OCRLine? Type141 { get; set; }
+        public global::Reducto.LayoutAgentic? Type141 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.OCRWord>? Type142 { get; set; }
+        public global::Reducto.OCRLine? Type142 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.OCRWord? Type143 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.OCRWord>? Type143 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.OCRLine>? Type144 { get; set; }
+        public global::Reducto.OCRWord? Type144 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ParseAlpha? Type145 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.OCRLine>? Type145 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOverrides? Type146 { get; set; }
+        public global::Reducto.ParseAlpha? Type146 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ParseBlock? Type147 { get; set; }
+        public global::Reducto.ProcessingOverrides? Type147 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ParseBlockType? Type148 { get; set; }
+        public global::Reducto.ParseBlock? Type148 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.ParseBlock>? Type149 { get; set; }
+        public global::Reducto.ParseBlockType? Type149 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ParseConfig? Type150 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.ParseBlock>? Type150 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ParseConfigNew? Type151 { get; set; }
+        public global::Reducto.ParseConfig? Type151 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.FullResult, global::Reducto.UrlResult>? Type152 { get; set; }
+        public global::Reducto.ParseConfigNew? Type152 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.UrlResult? Type153 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.FullResult, global::Reducto.UrlResult>? Type153 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, double>? Type154 { get; set; }
+        public global::Reducto.UrlResult? Type154 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.PipelineConfig? Type155 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, double>? Type155 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.PipelineResult? Type156 { get; set; }
+        public global::Reducto.PipelineConfig? Type156 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.IList<global::Reducto.ParseResponse>, object>? Type157 { get; set; }
+        public global::Reducto.PipelineResult? Type157 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.ParseResponse>? Type158 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.IList<global::Reducto.ParseResponse>>? Type158 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse, object>? Type159 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.ParseResponse>? Type159 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>? Type160 { get; set; }
+        public global::Reducto.AnyOf<global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse>? Type160 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsVersion? Type161 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>? Type161 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsPdfOcr? Type162 { get; set; }
+        public global::Reducto.ProcessingOptionsVersion? Type162 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsOcrSystem? Type163 { get; set; }
+        public global::Reducto.ProcessingOptionsPdfOcr? Type163 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsOcrMode? Type164 { get; set; }
+        public global::Reducto.ProcessingOptionsOcrSystem? Type164 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsTableOutputFormat? Type165 { get; set; }
+        public global::Reducto.ProcessingOptionsOcrMode? Type165 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsChunkMode? Type166 { get; set; }
+        public global::Reducto.ProcessingOptionsTableOutputFormat? Type166 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsMode? Type167 { get; set; }
+        public global::Reducto.ProcessingOptionsChunkMode? Type167 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsEnrichMode? Type168 { get; set; }
+        public global::Reducto.ProcessingOptionsMode? Type168 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.ProcessingOptionsIgnoreBlock>? Type169 { get; set; }
+        public global::Reducto.ProcessingOptionsEnrichMode? Type169 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsIgnoreBlock? Type170 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.ProcessingOptionsIgnoreBlock>? Type170 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsCustomFormat? Type171 { get; set; }
+        public global::Reducto.ProcessingOptionsIgnoreBlock? Type171 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsSpreadsheetTableClustering? Type172 { get; set; }
+        public global::Reducto.ProcessingOptionsCustomFormat? Type172 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsSpreadsheetLoader? Type173 { get; set; }
+        public global::Reducto.ProcessingOptionsSpreadsheetTableClustering? Type173 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsLayoutModel? Type174 { get; set; }
+        public global::Reducto.ProcessingOptionsSpreadsheetLoader? Type174 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOptionsAgenticTextThinkingLevel? Type175 { get; set; }
+        public global::Reducto.ProcessingOptionsLayoutModel? Type175 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.ProcessingOverridesBase? Type176 { get; set; }
+        public global::Reducto.ProcessingOptionsAgenticTextThinkingLevel? Type176 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.CategoryConfidence>? Type177 { get; set; }
+        public global::Reducto.ProcessingOverridesBase? Type177 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.RetrievalFilterBlock>? Type178 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.CategoryConfidence>? Type178 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.RetrievalFilterBlock? Type179 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.RetrievalFilterBlock>? Type179 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.SettingsOcrSystem? Type180 { get; set; }
+        public global::Reducto.RetrievalFilterBlock? Type180 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.SettingsExtractionMode? Type181 { get; set; }
+        public global::Reducto.SettingsOcrSystem? Type181 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.SettingsReturnImage>? Type182 { get; set; }
+        public global::Reducto.SettingsExtractionMode? Type182 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.SettingsReturnImage? Type183 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.SettingsReturnImage>? Type183 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>, object>? Type184 { get; set; }
+        public global::Reducto.SettingsReturnImage? Type184 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -933,7 +933,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig, object>? Type225 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig>? Type225 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -998,7 +998,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>, object>? ListType9 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>>? ListType9 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -1054,7 +1054,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.List<global::Reducto.ParseResponse>, object>? ListType23 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.List<global::Reducto.ParseResponse>>? ListType23 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -1062,7 +1062,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::System.Collections.Generic.List<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse, object>? ListType25 { get; set; }
+        public global::Reducto.AnyOf<global::System.Collections.Generic.List<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse>? ListType25 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -1086,38 +1086,34 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>, global::System.Collections.Generic.List<string>, object>? ListType31 { get; set; }
+        public global::System.Collections.Generic.List<global::Reducto.SplitPartition>? ListType31 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.List<global::Reducto.SplitPartition>? ListType32 { get; set; }
+        public global::System.Collections.Generic.List<global::Reducto.SplitCategory>? ListType32 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.List<global::Reducto.SplitCategory>? ListType33 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, global::System.Collections.Generic.List<int>>? ListType33 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, global::System.Collections.Generic.List<int>>? ListType34 { get; set; }
+        public global::System.Collections.Generic.List<global::Reducto.Split>? ListType34 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.List<global::Reducto.Split>? ListType35 { get; set; }
+        public global::System.Collections.Generic.List<global::Reducto.SpreadsheetIncludeItem>? ListType35 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.List<global::Reducto.SpreadsheetIncludeItem>? ListType36 { get; set; }
+        public global::System.Collections.Generic.List<global::Reducto.SpreadsheetExcludeItem>? ListType36 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.List<global::Reducto.SpreadsheetExcludeItem>? ListType37 { get; set; }
+        public global::Reducto.AnyOf<object, global::System.Collections.Generic.List<object>>? ListType37 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<object, global::System.Collections.Generic.List<object>>? ListType38 { get; set; }
-        /// <summary>
-        ///
-        /// </summary>
-        public global::System.Collections.Generic.List<global::Reducto.AnyOf<string, int?>>? ListType39 { get; set; }
+        public global::System.Collections.Generic.List<global::Reducto.AnyOf<string, int?>>? ListType38 { get; set; }
     }
 }

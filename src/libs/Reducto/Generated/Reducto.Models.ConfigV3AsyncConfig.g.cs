@@ -25,8 +25,8 @@ namespace Reducto
         /// The webhook configuration for the asynchronous processing.
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("webhook")]
-        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig, object>))]
-        public global::Reducto.AnyOf<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig, object>? Webhook { get; set; }
+        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig>))]
+        public global::Reducto.AnyOf<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig>? Webhook { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -53,7 +53,7 @@ namespace Reducto
         public ConfigV3AsyncConfig(
             object? metadata,
             bool? priority,
-            global::Reducto.AnyOf<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig, object>? webhook)
+            global::Reducto.AnyOf<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig>? webhook)
         {
             this.Metadata = metadata;
             this.Priority = priority;

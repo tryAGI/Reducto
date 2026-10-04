@@ -61,7 +61,7 @@ namespace Reducto
             global::Reducto.AnyOf<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse> input,
             bool? persistResults = default,
             global::System.Collections.Generic.IList<global::Reducto.ClassificationCategory>? classificationSchema = default,
-            global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, object>? pageRange = default,
+            global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>>? pageRange = default,
             string? documentMetadata = default,
             global::Reducto.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
