@@ -231,7 +231,7 @@ namespace Reducto
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse>),
 
-            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse, object>),
+            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse>),
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse>),
 
@@ -241,13 +241,13 @@ namespace Reducto
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse>),
 
-            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, object>),
+            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>>),
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::Reducto.UploadResponse>),
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.TableAgentic, global::Reducto.FigureAgentic, global::Reducto.TextAgentic>),
 
-            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse, object>),
+            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse>),
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
 
@@ -263,13 +263,13 @@ namespace Reducto
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse>),
 
-            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.ParseResponse, global::System.Collections.Generic.IList<global::Reducto.ParseResponse>, object>),
+            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.ParseResponse, global::System.Collections.Generic.IList<global::Reducto.ParseResponse>>),
 
-            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse, object>),
+            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse>),
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>),
 
-            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>, object>),
+            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>),
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse>),
 
@@ -293,7 +293,7 @@ namespace Reducto
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse>),
 
-            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig, object>),
+            typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig>),
 
             typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::Reducto.UploadResponse>),
 
@@ -352,7 +352,7 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AsyncExtractResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AsyncJobResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AsyncJobResponseStatus), TypeInfoPropertyName = "AsyncJobResponseStatus2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse, object>), TypeInfoPropertyName = "AnyOfParseResponseExtractResponseSplitResponseEditResponsePipelineResponseV3ExtractResponseClassifyResponseObject2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse>), TypeInfoPropertyName = "AnyOfParseResponseExtractResponseSplitResponseEditResponsePipelineResponseV3ExtractResponseClassifyResponse2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ParseResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ExtractResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.SplitResponse))]
@@ -394,7 +394,7 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ClassificationCategory))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ClassifyConfig))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Reducto.ClassificationCategory>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, object>), TypeInfoPropertyName = "AnyOfPageRange3IListPageRange3IListInt32Object2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>>), TypeInfoPropertyName = "AnyOfPageRange3IListPageRange3IListInt322")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ClassifyResponseCategory))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ResponseConfidence))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.CriteriaConfidenceConfidence), TypeInfoPropertyName = "CriteriaConfidenceConfidence2")]
@@ -470,9 +470,9 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.Dictionary<string, double>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.PipelineConfig))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.PipelineResult))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.IList<global::Reducto.ParseResponse>, object>), TypeInfoPropertyName = "AnyOfParseResponseIListParseResponseObject2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.IList<global::Reducto.ParseResponse>>), TypeInfoPropertyName = "AnyOfParseResponseIListParseResponse2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Reducto.ParseResponse>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse, object>), TypeInfoPropertyName = "AnyOfIListExtractSplitResponseExtractResponseV3ExtractResponseObject2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse>), TypeInfoPropertyName = "AnyOfIListExtractSplitResponseExtractResponseV3ExtractResponse2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Reducto.ExtractSplitResponse>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsVersion), TypeInfoPropertyName = "ProcessingOptionsVersion2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ProcessingOptionsPdfOcr), TypeInfoPropertyName = "ProcessingOptionsPdfOcr2")]
@@ -497,7 +497,6 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.SettingsExtractionMode), TypeInfoPropertyName = "SettingsExtractionMode2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Reducto.SettingsReturnImage>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.SettingsReturnImage), TypeInfoPropertyName = "SettingsReturnImage2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>, object>), TypeInfoPropertyName = "AnyOfPageRange3IListPageRange3IListInt32IListStringObject2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.SingleJobStatus), TypeInfoPropertyName = "SingleJobStatus2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.SingleJobType), TypeInfoPropertyName = "SingleJobType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.Split))]
@@ -538,14 +537,13 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.WebhookConfigMode), TypeInfoPropertyName = "WebhookConfigMode2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.WebhookConfigNewMode), TypeInfoPropertyName = "WebhookConfigNewMode2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ConfigV2AsyncSplitConfig))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig, object>), TypeInfoPropertyName = "AnyOfSvixWebhookConfigDirectWebhookConfigObject2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.SvixWebhookConfig, global::Reducto.DirectWebhookConfig>), TypeInfoPropertyName = "AnyOfSvixWebhookConfigDirectWebhookConfig2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.ConfigV3AsyncSplitConfig))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.OneOf<global::Reducto.SyncParseConfig, global::Reducto.AsyncParseConfig>), TypeInfoPropertyName = "OneOfSyncParseConfigAsyncParseConfig2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.OneOf<global::Reducto.SyncExtractConfig, global::Reducto.AsyncExtractConfig>), TypeInfoPropertyName = "OneOfSyncExtractConfigAsyncExtractConfig2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ParseResponse, global::Reducto.AsyncParseResponse>), TypeInfoPropertyName = "AnyOfParseResponseAsyncParseResponse2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.OneOf<global::Reducto.V3ExtractResponse, global::Reducto.AsyncExtractResponse>), TypeInfoPropertyName = "OneOfV3ExtractResponseAsyncExtractResponse2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.AsyncJobResponse, global::Reducto.EnhancedAsyncJobResponse>), TypeInfoPropertyName = "AnyOfAsyncJobResponseEnhancedAsyncJobResponse2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ParseResponse, global::Reducto.ExtractResponse, global::Reducto.SplitResponse, global::Reducto.EditResponse, global::Reducto.PipelineResponse, global::Reducto.V3ExtractResponse, global::Reducto.ClassifyResponse, object>?), TypeInfoPropertyName = "ClassifyResponse_object_2da2e6b49be8df16")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>, global::System.Collections.Generic.List<string>>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.PageRange3>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<int>))]
@@ -555,7 +553,7 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.BaseProcessingOptionsFilterBlock>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.CriteriaConfidence>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.ClassificationCategory>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>, object>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.DeepSplitPageEvidence>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.DeepSplitPartition>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.DeepSplit>))]
@@ -568,15 +566,14 @@ namespace Reducto
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.OCRWord>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.OCRLine>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.ParseBlock>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.List<global::Reducto.ParseResponse>, object>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.ParseResponse, global::System.Collections.Generic.List<global::Reducto.ParseResponse>>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.ParseResponse>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::System.Collections.Generic.List<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse, object>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::System.Collections.Generic.List<global::Reducto.ExtractSplitResponse>, global::Reducto.ExtractResponse, global::Reducto.V3ExtractResponse>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.ExtractSplitResponse>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.ProcessingOptionsIgnoreBlock>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.CategoryConfidence>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.RetrievalFilterBlock>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.SettingsReturnImage>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>, global::System.Collections.Generic.List<string>, object>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.SplitPartition>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Reducto.SplitCategory>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.Dictionary<string, global::System.Collections.Generic.List<int>>))]
