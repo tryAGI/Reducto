@@ -58,15 +58,15 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>? Type5 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.PageRange, global::System.Collections.Generic.IList<global::Reducto.PageRange>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>? Type5 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.PageRange3? Type6 { get; set; }
+        public global::Reducto.PageRange? Type6 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Reducto.PageRange3>? Type7 { get; set; }
+        public global::System.Collections.Generic.IList<global::Reducto.PageRange>? Type7 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -366,7 +366,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>>? Type82 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.PageRange, global::System.Collections.Generic.IList<global::Reducto.PageRange>, global::System.Collections.Generic.IList<int>>? Type82 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -967,11 +967,11 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>, global::System.Collections.Generic.List<string>>? ListType0 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.PageRange, global::System.Collections.Generic.List<global::Reducto.PageRange>, global::System.Collections.Generic.List<int>, global::System.Collections.Generic.List<string>>? ListType0 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.List<global::Reducto.PageRange3>? ListType1 { get; set; }
+        public global::System.Collections.Generic.List<global::Reducto.PageRange>? ListType1 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -1003,7 +1003,7 @@ namespace Reducto
         /// <summary>
         ///
         /// </summary>
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.List<global::Reducto.PageRange3>, global::System.Collections.Generic.List<int>>? ListType9 { get; set; }
+        public global::Reducto.AnyOf<global::Reducto.PageRange, global::System.Collections.Generic.List<global::Reducto.PageRange>, global::System.Collections.Generic.List<int>>? ListType9 { get; set; }
         /// <summary>
         ///
         /// </summary>
