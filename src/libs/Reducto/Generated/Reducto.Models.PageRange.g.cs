@@ -6,7 +6,7 @@ namespace Reducto
     /// <summary>
     ///
     /// </summary>
-    public sealed partial class PageRange3
+    public sealed partial class PageRange
     {
         /// <summary>
         /// The page number to start processing from (1-indexed).
@@ -27,7 +27,7 @@ namespace Reducto
         public global::System.Collections.Generic.IDictionary<string, object> AdditionalProperties { get; set; } = new global::System.Collections.Generic.Dictionary<string, object>();
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="PageRange3" /> class.
+        /// Initializes a new instance of the <see cref="PageRange" /> class.
         /// </summary>
         /// <param name="start">
         /// The page number to start processing from (1-indexed).
@@ -38,7 +38,7 @@ namespace Reducto
 #if NET7_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembers]
 #endif
-        public PageRange3(
+        public PageRange(
             int? start,
             int? end)
         {
@@ -47,9 +47,9 @@ namespace Reducto
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="PageRange3" /> class.
+        /// Initializes a new instance of the <see cref="PageRange" /> class.
         /// </summary>
-        public PageRange3()
+        public PageRange()
         {
         }
 

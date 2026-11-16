@@ -71,8 +71,8 @@ namespace Reducto
         /// Default Value: {}
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("page_range")]
-        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>))]
-        public global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>? PageRange { get; set; }
+        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Reducto.JsonConverters.AnyOfJsonConverter<global::Reducto.PageRange, global::System.Collections.Generic.IList<global::Reducto.PageRange>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>))]
+        public global::Reducto.AnyOf<global::Reducto.PageRange, global::System.Collections.Generic.IList<global::Reducto.PageRange>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>? PageRange { get; set; }
 
         /// <summary>
         /// Force the URL to be downloaded as a specific file extension (e.g. .png).
@@ -293,7 +293,7 @@ namespace Reducto
             bool? includeDropdownInformation,
             bool? continueHierarchy,
             bool? keepLineBreaks,
-            global::Reducto.AnyOf<global::Reducto.PageRange3, global::System.Collections.Generic.IList<global::Reducto.PageRange3>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>? pageRange,
+            global::Reducto.AnyOf<global::Reducto.PageRange, global::System.Collections.Generic.IList<global::Reducto.PageRange>, global::System.Collections.Generic.IList<int>, global::System.Collections.Generic.IList<string>>? pageRange,
             string? forceFileExtension,
             global::Reducto.LargeTableChunkingConfig? largeTableChunking,
             global::Reducto.AdvancedProcessingOptionsSpreadsheetTableClustering? spreadsheetTableClustering,
